@@ -16,7 +16,7 @@ This project explores how to effectively implement and possibly improve upon exi
       - Dropout and Max Pooling are applied sequentially in each block.
    
 4. **YOLO Implementation Attempt**
-   - An exploratory section where we attempt to implement the YOLO model for object detection.
+   - An exploratory section where we attempt to implement the YOLOv7 model (https://github.com/WongKinYiu/yolov7) for object detection.
 
 ## Usage
 To run this notebook:
