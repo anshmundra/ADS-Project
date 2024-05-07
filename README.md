@@ -1,5 +1,5 @@
 ## Overview
-This project explores how to effectively implement and possibly improve upon existing models for digit classification in complex, real-world images. Our focus is on preprocessing data, building and comparing different CNN models, and experimenting with complex object detection frameworks like YOLO.
+This project explores how to effectively implement and possibly improve upon existing models for digit classification in complex, real-world images. We use the Street View House Numbers (format 1) dataset Our focus is on preprocessing data, building and comparing different CNN models, and experimenting with complex object detection frameworks like YOLO.
 
 ## Contents
 1. **Data Preprocessing**
