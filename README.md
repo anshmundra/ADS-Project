@@ -23,6 +23,7 @@ This project explores how to effectively implement and possibly improve upon exi
 
    
 3. **Model 2 Building**
+   
    Built a more complex CNN with this architecture:
    
       - **Block 1**: Two convolutional layers with 32 filters
