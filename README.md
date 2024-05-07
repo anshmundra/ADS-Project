@@ -3,7 +3,7 @@ This project explores how to effectively implement and possibly improve upon exi
 
 ## Contents
 1. **Data Preprocessing**
-   - This section deals with preparing the data for modeling. It includes cleaning, normalizing, augmenting, and splitting the dataset.
+   - This section deals with preparing the data for modeling. It includes categorical conversion, normalizing, splitting the dataset.
    
 2. **Model 1 Building**
    - Here, we develop our first CNN model.
