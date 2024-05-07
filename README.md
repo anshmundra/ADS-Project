@@ -6,10 +6,24 @@ This project explores how to effectively implement and possibly improve upon exi
    - This section deals with preparing the data for modeling. It includes categorical conversion, normalizing, and splitting the dataset.
    
 2. **Model 1 Building**
-   - Here, we develop our first CNN model.
+   First simple CNN:
+   - **Initial Convolution and Pooling**:
+  - `Conv2D`: 64 filters, 3x3, ReLU activation, input shape (32, 32, 3)
+  - `AveragePooling2D`: 2x2, reduces spatial dimensions while retaining important features
+
+- **Second Convolutional Block**:
+  - `Conv2D`: 128 filters, 3x3, ReLU activation, padding 'same'
+  - `BatchNormalization`: Normalizes the activations from the previous layer, improving stability
+  - `MaxPooling2D`: 2x2, further reduces dimensionality and helps to prevent overfitting
+
+- **Third Convolutional Block**:
+  - `Conv2D`: 256 filters, 3x3, ReLU activation, padding 'same'
+  - `MaxPooling2D`: 2x2, sharpens the features for the final classification
+  - `Dropout`: 0.4, significantly reduces overfitting by randomly turning off a fraction of neurons
+
    
 3. **Model 2 Building**
-   - Built a more complex CNN with this architecture:
+   Built a more complex CNN with this architecture:
       - **Block 1**: Two convolutional layers with 32 filters
       - **Block 2**: Two convolutional layers with 64 filters
       - **Block 3**: Two convolutional layers with 128 filters
