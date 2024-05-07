@@ -9,10 +9,10 @@ This project explores how to effectively implement and possibly improve upon exi
    - Here, we develop our first CNN model.
    
 3. **Model 2 Building**
-   - This section describes the development of the second CNN model, providing insights into its architecture, training, and evaluation.
+   - This section describes the development of the second CNN model.
    
 4. **YOLO Implementation Attempt**
-   - An exploratory section where we attempt to implement the YOLO model for object detection. It covers the challenges faced and the outcomes of this implementation.
+   - An exploratory section where we attempt to implement the YOLO model for object detection.
 
 ## Usage
 To run this notebook:
@@ -20,6 +20,7 @@ To run this notebook:
 2. Clone/download this repository.
 3. Navigate to the project directory.
 4. Run `jupyter notebook` or `jupyter lab` and open the `ADS_Project_Ansh_x_Dhiren.ipynb` file.
+5. Download Format 1 of the Street View House Numbers Dataset (http://ufldl.stanford.edu/housenumbers/)
 
 ## Requirements
 - Python 3.x
