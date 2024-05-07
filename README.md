@@ -9,7 +9,11 @@ This project explores how to effectively implement and possibly improve upon exi
    - Here, we develop our first CNN model.
    
 3. **Model 2 Building**
-   - This section describes the development of the second CNN model.
+   - Built a more complex CNN with this architecture:
+      - **Block 1**: Two convolutional layers with 32 filters
+      - **Block 2**: Two convolutional layers with 64 filters
+      - **Block 3**: Two convolutional layers with 128 filters
+      - Dropout and Max Pooling are applied sequentially in each block.
    
 4. **YOLO Implementation Attempt**
    - An exploratory section where we attempt to implement the YOLO model for object detection.
