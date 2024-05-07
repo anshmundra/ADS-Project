@@ -20,22 +20,14 @@ To run this notebook:
 2. Clone/download this repository.
 3. Navigate to the project directory.
 4. Run `jupyter notebook` or `jupyter lab` and open the `ADS_Project_Ansh_x_Dhiren.ipynb` file.
-5. Download Format 1 of the Street View House Numbers Dataset (http://ufldl.stanford.edu/housenumbers/)
+5. Download Format 1 of the Street View House Numbers Dataset (http://ufldl.stanford.edu/housenumbers/).
 
 ## Requirements
 - Python 3.x
 - TensorFlow
 - NumPy
 - Matplotlib
-- Other dependencies listed in `requirements.txt`.
 
 ## Contributors
-- Ansh [Add contact information or GitHub profile link]
-- Dhiren [Add contact information or GitHub profile link]
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-You can customize this README by adding more specific details about the models, their performance, or any other specific analysis performed in the project.
+- Ansh Mundra
+- Dhiren Shivdasani
