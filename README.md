@@ -28,7 +28,7 @@ This project explores how to effectively implement and possibly improve upon exi
    
    Built a more complex CNN with this architecture:
    
-       **Block 1**:
+   **Block 1**:
      - Conv2D: 32 filters, 3x3, ReLU activation
      - Conv2D: 32 filters, 3x3, ReLU activation
      - MaxPooling2D: 2x2
