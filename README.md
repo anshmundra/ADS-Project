@@ -6,7 +6,9 @@ This project explores how to effectively implement and possibly improve upon exi
    - This section deals with preparing the data for modeling. It includes categorical conversion, normalizing, and splitting the dataset.
    
 2. **Model 1 Building**
+
    First simple CNN:
+   
       **Initial Convolution and Pooling**:
      - `Conv2D`: 64 filters, 3x3, ReLU activation, input shape (32, 32, 3)
      - `AveragePooling2D`: 2x2, reduces spatial dimensions while retaining important features
@@ -22,14 +24,27 @@ This project explores how to effectively implement and possibly improve upon exi
      - `Dropout`: 0.4, significantly reduces overfitting by randomly turning off a fraction of neurons
 
    
-3. **Model 2 Building**
+4. **Model 2 Building**
    
    Built a more complex CNN with this architecture:
    
-      - **Block 1**: Two convolutional layers with 32 filters
-      - **Block 2**: Two convolutional layers with 64 filters
-      - **Block 3**: Two convolutional layers with 128 filters
-      - Dropout and Max Pooling are applied sequentially in each block.
+       **Block 1**:
+     - Conv2D: 32 filters, 3x3, ReLU activation
+     - Conv2D: 32 filters, 3x3, ReLU activation
+     - MaxPooling2D: 2x2
+     - Dropout: 25%
+   
+     **Block 2**:
+     - Conv2D: 64 filters, 3x3, ReLU activation
+     - Conv2D: 64 filters, 3x3, ReLU activation
+     - MaxPooling2D: 2x2
+     - Dropout: 25%
+   
+     **Block 3**:
+     - Conv2D: 128 filters, 3x3, ReLU activation
+     - Conv2D: 128 filters, 3x3, ReLU activation
+     - MaxPooling2D: 2x2
+     - Dropout: 25%
    
 5. **YOLO Implementation Attempt**
    - An exploratory section where we attempt to implement the YOLOv7 model (https://github.com/WongKinYiu/yolov7) for object detection.
